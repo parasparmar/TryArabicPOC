@@ -1,3 +1,16 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+
+
+<div id="content">
+    <h2>[[[Welcome to Kale Logistics!]]]</h2>
+    <h3><span>[[[Air, Sea, Land]]]</span></h3>
+    <p>[[[Kale Logistics Solutions Pvt Ltd]]]</p>
+    <span class="button" title="[[[Click to see plans and pricing]]]">
+        <a href="@Url.Action("Plans", "Home", new { area = "" })">
+            <strong>[[[SEE APPLICATION and INTEGRATIONS]]]</strong>
+            <span>[[[Canopus, Helios, ACS, Uplift, Capella]]]</span>
+        </a>
+    </span>
+</div>

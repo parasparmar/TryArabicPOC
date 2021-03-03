@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-03 12:14+05:30\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: i18n.POTGenerator\n"
+
+#: Views\Home\Index.cshtml:9
+msgid "Ad copy that would make Hiten Shah fall off his chair!"
+msgstr ""
+
+#: Views\Home\Index.cshtml:8
+msgid "Amazing slogan here"
+msgstr ""
+
+#: Views\Home\Index.cshtml:10
+msgid "Click to see plans and pricing"
+msgstr ""
+
+#: Views\Home\Index.cshtml:13
+msgid "Free unicorn with all plans!"
+msgstr ""
+
+#: Views\Home\Index.cshtml:12
+msgid "SEE PLANS & PRICING"
+msgstr ""
+
+#: Views\Home\Index.cshtml:7
+msgid "Welcome to my web app!"
+msgstr ""
+
