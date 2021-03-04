@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using i18n
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -39,6 +40,13 @@
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - [[[Arabic POC]]]</p>
+            <div>
+                <p id="lang_cur" title="@Context.GetPrincipalAppLanguageForRequest()">
+                    Current Language&nbsp;:&nbsp;@Context.GetPrincipalAppLanguageForRequest().GetCultureInfo().DisplayName
+                    &nbsp;(@Context.GetPrincipalAppLanguageForRequest().GetNativeNameTitleCase())
+                </p>
+            </div>
+            
         </footer>
     </div>
 
