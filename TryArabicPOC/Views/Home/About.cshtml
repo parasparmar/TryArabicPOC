@@ -7,13 +7,12 @@
 
 <p>Use this list to selct your display language.</p>
 
-<div id="language">
-    <div>
-        <p id="lang_cur" title="@Context.GetPrincipalAppLanguageForRequest()">@Context.GetPrincipalAppLanguageForRequest().GetNativeNameTitleCase()</p>
-    </div>
-    <div id="lang_menu table-responsive">
-        <ul>
-
+<div>
+    <span>
+        <text title="@Context.GetPrincipalAppLanguageForRequest()">@Context.GetPrincipalAppLanguageForRequest().GetNativeNameTitleCase()</text>
+    </span>
+    <span>
+        <badge>
             @{
                 int i;
                 int maxcols = 3;
@@ -44,7 +43,7 @@
                             displayName = $"{lt.CultureInfo.DisplayName} - {lt.NativeNameTitleCase}";
                         }
                         <li>
-                            @displayName &nbsp;
+                            
                             @Html.ActionLink(
                               linkText: displayName,
                               actionName: "SetLanguage",
@@ -57,7 +56,6 @@
 
                 }
             }
-
-        </ul>
-    </div>
+        </badge>
+    </span>
 </div>
