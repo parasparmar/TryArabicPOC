@@ -17,7 +17,7 @@ namespace TryArabicPOC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Language Selector";
 
             return View();
         }

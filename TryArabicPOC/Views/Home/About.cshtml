@@ -1,7 +1,63 @@
-﻿@{
+﻿@using i18n
+@{
     ViewBag.Title = "About";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<p>Use this list to selct your display language.</p>
+
+<div id="language">
+    <div>
+        <p id="lang_cur" title="@Context.GetPrincipalAppLanguageForRequest()">@Context.GetPrincipalAppLanguageForRequest().GetNativeNameTitleCase()</p>
+    </div>
+    <div id="lang_menu table-responsive">
+        <ul>
+
+            @{
+                int i;
+                int maxcols = 3;
+                KeyValuePair<string, i18n.LanguageTag>[] langs = LanguageHelpers.GetAppLanguages().OrderBy(x => x.Key).ToArray();
+                int cellcnt = langs.Length + 1;
+                for (i = 0; i < cellcnt;)
+                {
+                    bool lastRow = i + maxcols >= cellcnt;
+
+                    for (int j = 0; j < maxcols && i < cellcnt; ++i, ++j)
+                    {
+                        string langtag;
+                        string title;
+                        
+                        string displayName = string.Empty;
+                        if (i == 0)
+                        {
+                            langtag = "";
+                            title = "[[[Browser default language setting]]]";
+                            
+                            displayName = "AUTO";
+                        }
+                        else
+                        {
+                            i18n.LanguageTag lt = langs[i - 1].Value;
+                            title = langtag = lt.ToString();
+                            
+                            displayName = $"{lt.CultureInfo.DisplayName} - {lt.NativeNameTitleCase}";
+                        }
+                        <li>
+                            @displayName &nbsp;
+                            @Html.ActionLink(
+                              linkText: displayName,
+                              actionName: "SetLanguage",
+                              controllerName: "Home",
+                              routeValues: new { langtag = langtag, returnUrl = Request.Url },
+                              htmlAttributes: new { title = displayName })
+                        </li>
+                    }
+
+
+                }
+            }
+
+        </ul>
+    </div>
+</div>
