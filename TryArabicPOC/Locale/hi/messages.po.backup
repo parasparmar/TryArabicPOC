@@ -2,6 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-03-09 15:50+05:30\n"
+"PO-Revision-Date: 2021-03-09 15:50+05:30\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -9,74 +10,83 @@ msgstr ""
 
 #: Views\Shared\_Layout.cshtml:27
 msgid "ACS Arabic Demo"
-msgstr ""
+msgstr "एसीएस अरबी डेमो"
 
 #: Views\Home\Index.cshtml:10
 msgid "Air, Sea, Land"
-msgstr ""
+msgstr "वायु, समुद्र, भूमि"
 
-#: Views\Shared\_Layout.cshtml:42
+#: Views\Shared\_Layout.cshtml:101
 msgid "Arabic POC"
-msgstr ""
+msgstr "अरबी पीओसी"
 
 #: Views\Home\About.cshtml:34
 #: Views\Home\Index.cshtml:71
+#: Views\Shared\_Layout.cshtml:62
 msgid "Browser default language setting"
-msgstr ""
+msgstr "ब्राउज़र डिफ़ॉल्ट भाषा सेटिंग"
 
 #: Views\Home\Index.cshtml:15
 msgid "Canopus, Helios, ACS, Uplift, Capella"
-msgstr ""
+msgstr "कैनोपस, हेलियोस, एसीएस, उत्थान, कैपेला"
 
 #: Views\Home\Index.cshtml:12
 msgid "Click to see plans and pricing"
-msgstr ""
+msgstr "योजनाओं और मूल्य निर्धारण को देखने के लिए क्लिक करें"
 
 #: Views\Shared\_Layout.cshtml:33
 msgid "Contact"
-msgstr ""
+msgstr "संपर्क करें"
 
 #: Views\Home\Index.cshtml:32
+#, fuzzy
 msgid "Email:"
-msgstr ""
+msgstr "ईमेल:"
 
 #: Views\Home\Index.cshtml:24
+#, fuzzy
 msgid "Enter ID: "
-msgstr ""
+msgstr "आईडी दर्ज करें:"
 
 #: Views\Home\Index.cshtml:28
+#, fuzzy
 msgid "Enter Name:"
-msgstr ""
+msgstr "नाम दर्ज:"
 
 #: Views\Shared\_Layout.cshtml:31
 msgid "Home"
-msgstr ""
+msgstr "घर"
 
 #: Views\Home\Index.cshtml:11
 msgid "Kale Logistics Solutions Pvt Ltd"
-msgstr ""
+msgstr "काले लॉजिस्टिक्स सॉल्यूशंस प्राइवेट लिमिटेड"
 
 #: Views\Shared\_Layout.cshtml:32
 msgid "Language"
-msgstr ""
+msgstr "भाषा"
 
 #: Views\Home\Index.cshtml:18
+#, fuzzy
 msgid "Login Form"
-msgstr ""
+msgstr "लॉगिन फॉर्म"
 
 #: Views\Home\Index.cshtml:36
+#, fuzzy
 msgid "Mobile Number:"
-msgstr ""
+msgstr "मोबाइल नंबर:"
 
 #: Views\Home\Index.cshtml:14
+#, fuzzy
 msgid "SEE APPLICATION and INTEGRATIONS"
-msgstr ""
+msgstr "देखें आवेदन और एकीकरण"
 
 #: Views\Home\Index.cshtml:40
+#, fuzzy
 msgid "Submit Form"
-msgstr ""
+msgstr "फॉर्म अदा करें"
 
 #: Views\Home\Index.cshtml:9
+#, fuzzy
 msgid "Welcome to Kale Logistics!"
-msgstr ""
+msgstr "Kale रसद में आपका स्वागत है!"
 

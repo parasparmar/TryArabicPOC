@@ -2,15 +2,100 @@
     ViewBag.Title = "Home Page";
 }
 
+@using i18n
+<div class="row">
+    <div class="col-md-6">
+        <div id="content">
+            <h2>[[[Welcome to Kale Logistics!]]]</h2>
+            <h3><span>[[[Air, Sea, Land]]]</span></h3>
+            <p>[[[Kale Logistics Solutions Pvt Ltd]]]</p>
+            <span class="button" title="[[[Click to see plans and pricing]]]">
+                <a href="@Url.Action("Plans", "Home", new { area = "" })">
+                    <strong>[[[SEE APPLICATION and INTEGRATIONS]]]</strong>
+                    <span>[[[Canopus, Helios, ACS, Uplift, Capella]]]</span>
+                </a>
+            </span>
+            <h2>[[[Login Form]]]</h2>
+        </div>
 
-<div id="content">
-    <h2>[[[Welcome to Kale Logistics!]]]</h2>
-    <h3><span>[[[Air, Sea, Land]]]</span></h3>
-    <p>[[[Kale Logistics Solutions Pvt Ltd]]]</p>
-    <span class="button" title="[[[Click to see plans and pricing]]]">
-        <a href="@Url.Action("Plans", "Home", new { area = "" })">
-            <strong>[[[SEE APPLICATION and INTEGRATIONS]]]</strong>
-            <span>[[[Canopus, Helios, ACS, Uplift, Capella]]]</span>
-        </a>
-    </span>
+        <div>
+            <table>
+                <tr>
+                    <td>[[[Enter ID: ]]]</td>
+                    <td><input type="text" name="txtId" /></td>
+                </tr>
+                <tr>
+                    <td>[[[Enter Name:]]] </td>
+                    <td><input type="text" name="txtName" /></td>
+                </tr>
+                <tr>
+                    <td>[[[Email:]]] </td>
+                    <td><input type="text" name="txtEmail" /></td>
+                </tr>
+                <tr>
+                    <td>[[[Mobile Number:]]] </td>
+                    <td><input type="text" name="txtMobileNumber" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="[[[Submit Form]]]" /></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class="col-md-6">
+        <div>
+            <span>
+                <text title="@Context.GetPrincipalAppLanguageForRequest()">@Context.GetPrincipalAppLanguageForRequest().GetNativeNameTitleCase()</text>
+            </span>
+            <span>
+                <ul>
+                    @{
+                        int i;
+                        int maxcols = 3;
+                        KeyValuePair<string, i18n.LanguageTag>[] langs = LanguageHelpers.GetAppLanguages().OrderBy(x => x.Key).ToArray();
+                        int cellcnt = langs.Length + 1;
+                        for (i = 0; i < cellcnt;)
+                        {
+                            bool lastRow = i + maxcols >= cellcnt;
+
+                            for (int j = 0; j < maxcols && i < cellcnt; ++i, ++j)
+                            {
+                                string langtag;
+                                string title;
+
+                                string displayName = string.Empty;
+                                if (i == 0)
+                                {
+                                    langtag = "";
+                                    title = "[[[Browser default language setting]]]";
+
+                                    displayName = "AUTO";
+                                }
+                                else
+                                {
+                                    i18n.LanguageTag lt = langs[i - 1].Value;
+                                    title = langtag = lt.ToString();
+
+                                    displayName = $"{lt.CultureInfo.DisplayName} - {lt.NativeNameTitleCase}";
+                                }
+                                <li>
+
+                                    @Html.ActionLink(
+                                      linkText: displayName,
+                                      actionName: "SetLanguage",
+                                      controllerName: "Home",
+                                      routeValues: new { langtag = langtag, returnUrl = Request.Url },
+                                      htmlAttributes: new { title = displayName })
+                                </li>
+                            }
+
+
+                        }
+                    }
+                </ul>
+            </span>
+        </div>
+
+    </div>
 </div>
