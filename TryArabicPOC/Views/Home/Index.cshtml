@@ -10,7 +10,7 @@
             <h3><span>[[[Air, Sea, Land]]]</span></h3>
             <p>[[[Kale Logistics Solutions Pvt Ltd]]]</p>
             <span class="button" title="[[[Click to see plans and pricing]]]">
-                <a href="@Url.Action("Plans", "Home", new { area = "" })">
+                <a href="@Url.Action("About", "Home", new { area = "" })">
                     <strong>[[[SEE APPLICATION and INTEGRATIONS]]]</strong>
                     <span>[[[Canopus, Helios, ACS, Uplift, Capella]]]</span>
                 </a>
@@ -48,7 +48,7 @@
             <span>
                 <text title="@Context.GetPrincipalAppLanguageForRequest()">@Context.GetPrincipalAppLanguageForRequest().GetNativeNameTitleCase()</text>
             </span>
-            <span>
+            <div>
                 <ul>
                     @{
                         int i;
@@ -94,7 +94,7 @@
                         }
                     }
                 </ul>
-            </span>
+            </div>
         </div>
 
     </div>
