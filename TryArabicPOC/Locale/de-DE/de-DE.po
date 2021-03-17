@@ -10,7 +10,7 @@ msgstr ""
 "Language-Team: \n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: de_DE\n"
+"Language: de-DE\n"
 
 #: Views\Shared\_Layout.cshtml:27
 #, fuzzy
