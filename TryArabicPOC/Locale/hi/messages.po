@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-03-09 15:50+05:30\n"
-"PO-Revision-Date: 2021-03-10 12:06+0530\n"
+"POT-Creation-Date: 2021-03-17 16:04+05:30\n"
+"PO-Revision-Date: 2021-03-26 19:14+0530\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,8 +12,9 @@ msgstr ""
 "Language: hi\n"
 
 #: Views\Shared\_Layout.cshtml:27
-msgid "ACS Arabic Demo"
-msgstr "एसीएस अरबी डेमो"
+#, fuzzy
+msgid "Air Cargo Community System - ACS"
+msgstr "एयर कार्गो कम्युनिटी सिस्टम - ACS"
 
 #: Views\Home\Index.cshtml:10
 msgid "Air, Sea, Land"
