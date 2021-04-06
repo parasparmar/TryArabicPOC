@@ -16,9 +16,73 @@
     white-space: normal;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.gradient #header-fix .logo-bar .horizontal-logo svg g {
+    fill: #fff;
+}
+
+.gradient .sidebar .dropdown-menu {
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient #settings .sidbarchat {
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient.horizontal-menu #header-fix {
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu {
+    margin-bottom: -2px;
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li > a {
+    background: transparent;
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li.active, .gradient.horizontal-menu .sidebar .sidebar-menu > li:hover {
+    border: 1px solid var(--sidebarbordercolor);
+    border-bottom: none;
+    background: var(--primarycolor);
+}
+
+.gradient.horizontal-menu .sidebar .sidebar-menu > li ul {
+    background: var(--primarycolor);
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient.compact-menu .sidebar {
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient .dropdown-menu {
+    border-bottom: 1px solid var(--bordercolor);
+}
+
+.gradient .theme-table thead th:after, .gradient .theme-table thead td:after {
+    background: #000;
+}
+
+.gradient .theme-table tr td:after {
+    background: #000;
+}
+
+/* Responsive Css */
+@media (max-width: 767px) {
+    .card .card-header h4 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .timeline-point:after, .timeline-point:before, .timeline:after, .timeline:before {
+        display: none;
+    }
+
+    .header-chart {
+        float: left;
+    }
 }

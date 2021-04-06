@@ -2,15 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-03-17 16:04+05:30\n"
-"PO-Revision-Date: 2021-03-17 16:04+05:30\n"
+"PO-Revision-Date: 2021-03-26 19:14+0530\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: i18n.POTGenerator\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi\n"
 
 #: Views\Shared\_Layout.cshtml:27
+#, fuzzy
 msgid "Air Cargo Community System - ACS"
-msgstr ""
+msgstr "एयर कार्गो कम्युनिटी सिस्टम - ACS"
 
 #: Views\Home\Index.cshtml:10
 msgid "Air, Sea, Land"
@@ -20,8 +24,7 @@ msgstr "वायु, समुद्र, भूमि"
 msgid "Arabic POC"
 msgstr "अरबी पीओसी"
 
-#: Views\Home\About.cshtml:34
-#: Views\Home\Index.cshtml:71
+#: Views\Home\About.cshtml:34 Views\Home\Index.cshtml:71
 msgid "Browser default language setting"
 msgstr "ब्राउज़र डिफ़ॉल्ट भाषा सेटिंग"
 
@@ -88,7 +91,3 @@ msgstr "फॉर्म अदा करें"
 #, fuzzy
 msgid "Welcome to Kale Logistics!"
 msgstr "Kale रसद में आपका स्वागत है!"
-
-#~ msgid "ACS Arabic Demo"
-#~ msgstr "एसीएस अरबी डेमो"
-

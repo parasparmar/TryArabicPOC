@@ -1,11 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-03-17 16:04+05:30\n"
+"POT-Creation-Date: 2021-04-06 19:31+05:30\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: i18n.POTGenerator\n"
+
+#: Views\Home\Contact.cshtml:11
+msgid "425.555.0100"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:9
+msgid "98052-6399"
+msgstr ""
 
 #: Views\Shared\_Layout.cshtml:27
 msgid "Air Cargo Community System - ACS"
@@ -32,6 +40,7 @@ msgstr ""
 msgid "Click to see plans and pricing"
 msgstr ""
 
+#: Views\Home\Contact.cshtml:2
 #: Views\Shared\_Layout.cshtml:33
 msgid "Contact"
 msgstr ""
@@ -52,6 +61,10 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
+#: Views\Home\Index.cshtml:2
+msgid "Home Page"
+msgstr ""
+
 #: Views\Home\Index.cshtml:11
 msgid "Kale Logistics Solutions Pvt Ltd"
 msgstr ""
@@ -64,8 +77,24 @@ msgstr ""
 msgid "Login Form"
 msgstr ""
 
+#: Views\Home\Contact.cshtml:16
+msgid "Marketing"
+msgstr ""
+
 #: Views\Home\Index.cshtml:36
 msgid "Mobile Number:"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:8
+msgid "One Microsoft Way"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:10
+msgid "Phone"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:9
+msgid "Redmond, WA"
 msgstr ""
 
 #: Views\Home\Index.cshtml:14
@@ -74,6 +103,10 @@ msgstr ""
 
 #: Views\Home\Index.cshtml:40
 msgid "Submit Form"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:15
+msgid "Support"
 msgstr ""
 
 #: Views\Home\Index.cshtml:9

@@ -2,90 +2,93 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-03-17 16:04+05:30\n"
-"PO-Revision-Date: 2021-04-06 11:29+0530\n"
+"PO-Revision-Date: 2021-04-06 11:35+0530\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.2\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: ar\n"
+"Language: fr\n"
 
 #: Views\Shared\_Layout.cshtml:27
 #, fuzzy
 msgid "Air Cargo Community System - ACS"
-msgstr "نظام مجتمع الشحن الجوي - ACS"
+msgstr "Système communautaire de fret aérien - ACS"
 
 #: Views\Home\Index.cshtml:10
 #, fuzzy
 msgid "Air, Sea, Land"
-msgstr "الجو والبحر والبر"
+msgstr "Air, mer, terre"
 
 #: Views\Shared\_Layout.cshtml:42
 #, fuzzy
 msgid "Arabic POC"
-msgstr "عربي POC"
+msgstr "POC arabe"
 
 #: Views\Home\About.cshtml:34 Views\Home\Index.cshtml:71
 #, fuzzy
 msgid "Browser default language setting"
-msgstr "إعداد اللغة الافتراضية للمتصفح"
+msgstr "Réglage de la langue par défaut du navigateur"
 
 #: Views\Home\Index.cshtml:15
+#, fuzzy
 msgid "Canopus, Helios, ACS, Uplift, Capella"
-msgstr "كانوب ، هيليوس ، ACS ، أبليفت ، كابيلا"
+msgstr "Canopus, Helios, ACS, Uplift, Capella"
 
 #: Views\Home\Index.cshtml:12
+#, fuzzy
 msgid "Click to see plans and pricing"
-msgstr "انقر لرؤية الخطط والتسعير"
+msgstr "Cliquez pour voir les plans et les tarifs"
 
 #: Views\Shared\_Layout.cshtml:33
 msgid "Contact"
-msgstr "اتصال"
+msgstr "Contact"
 
 #: Views\Home\Index.cshtml:32
 msgid "Email:"
-msgstr "البريد الإلكتروني:"
+msgstr "Email :"
 
 #: Views\Home\Index.cshtml:24
 #, fuzzy
 msgid "Enter ID: "
-msgstr "أدخل المعرف:"
+msgstr "Saisissez l'ID "
 
 #: Views\Home\Index.cshtml:28
 #, fuzzy
 msgid "Enter Name:"
-msgstr "أدخل الاسم:"
+msgstr "Entrez le nom :"
 
 #: Views\Shared\_Layout.cshtml:31
 msgid "Home"
-msgstr "الرئيسية"
+msgstr "Accueil"
 
 #: Views\Home\Index.cshtml:11
+#, fuzzy
 msgid "Kale Logistics Solutions Pvt Ltd"
-msgstr "كالي اللوجستية حلول Pvt المحدودة"
+msgstr "Kale Logistics Solutions Pvt Ltd"
 
 #: Views\Shared\_Layout.cshtml:32
 msgid "Language"
-msgstr "اللغة"
+msgstr "Langue"
 
 #: Views\Home\Index.cshtml:18
 msgid "Login Form"
-msgstr "نموذج تسجيل الدخول"
+msgstr "Formulaire de connexion"
 
 #: Views\Home\Index.cshtml:36
 msgid "Mobile Number:"
-msgstr "رقم الهاتف الجوال:"
+msgstr "Numéro de portable:"
 
 #: Views\Home\Index.cshtml:14
+#, fuzzy
 msgid "SEE APPLICATION and INTEGRATIONS"
-msgstr "انظر التطبيق والتكامل"
+msgstr "VOIR APPLICATION et INTEGRATIONS"
 
 #: Views\Home\Index.cshtml:40
 msgid "Submit Form"
-msgstr "إرسال"
+msgstr "Soumettre le formulaire"
 
 #: Views\Home\Index.cshtml:9
-#, fuzzy
 msgid "Welcome to Kale Logistics!"
-msgstr "مرحبًا بكم في Kale Logistics!"
+msgstr "Bienvenue chez Kale Logistics ! MANISH GOSWAMI"

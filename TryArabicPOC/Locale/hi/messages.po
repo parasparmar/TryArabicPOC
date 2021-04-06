@@ -1,15 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-03-17 16:04+05:30\n"
-"PO-Revision-Date: 2021-03-26 19:14+0530\n"
+"POT-Creation-Date: 2021-04-06 19:31+05:30\n"
+"PO-Revision-Date: 2021-04-06 19:31+05:30\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: hi\n"
+"X-Generator: i18n.POTGenerator\n"
+
+#: Views\Home\Contact.cshtml:11
+msgid "425.555.0100"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:9
+msgid "98052-6399"
+msgstr ""
 
 #: Views\Shared\_Layout.cshtml:27
 #, fuzzy
@@ -24,7 +29,8 @@ msgstr "वायु, समुद्र, भूमि"
 msgid "Arabic POC"
 msgstr "अरबी पीओसी"
 
-#: Views\Home\About.cshtml:34 Views\Home\Index.cshtml:71
+#: Views\Home\About.cshtml:34
+#: Views\Home\Index.cshtml:71
 msgid "Browser default language setting"
 msgstr "ब्राउज़र डिफ़ॉल्ट भाषा सेटिंग"
 
@@ -36,6 +42,7 @@ msgstr "कैनोपस, हेलियोस, एसीएस, उत्थ
 msgid "Click to see plans and pricing"
 msgstr "योजनाओं और मूल्य निर्धारण को देखने के लिए क्लिक करें"
 
+#: Views\Home\Contact.cshtml:2
 #: Views\Shared\_Layout.cshtml:33
 msgid "Contact"
 msgstr "संपर्क करें"
@@ -59,6 +66,10 @@ msgstr "नाम दर्ज:"
 msgid "Home"
 msgstr "घर"
 
+#: Views\Home\Index.cshtml:2
+msgid "Home Page"
+msgstr ""
+
 #: Views\Home\Index.cshtml:11
 msgid "Kale Logistics Solutions Pvt Ltd"
 msgstr "काले लॉजिस्टिक्स सॉल्यूशंस प्राइवेट लिमिटेड"
@@ -72,10 +83,26 @@ msgstr "भाषा"
 msgid "Login Form"
 msgstr "लॉगिन फॉर्म"
 
+#: Views\Home\Contact.cshtml:16
+msgid "Marketing"
+msgstr ""
+
 #: Views\Home\Index.cshtml:36
 #, fuzzy
 msgid "Mobile Number:"
 msgstr "मोबाइल नंबर:"
+
+#: Views\Home\Contact.cshtml:8
+msgid "One Microsoft Way"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:10
+msgid "Phone"
+msgstr ""
+
+#: Views\Home\Contact.cshtml:9
+msgid "Redmond, WA"
+msgstr ""
 
 #: Views\Home\Index.cshtml:14
 #, fuzzy
@@ -87,7 +114,12 @@ msgstr "देखें आवेदन और एकीकरण"
 msgid "Submit Form"
 msgstr "फॉर्म अदा करें"
 
+#: Views\Home\Contact.cshtml:15
+msgid "Support"
+msgstr ""
+
 #: Views\Home\Index.cshtml:9
 #, fuzzy
 msgid "Welcome to Kale Logistics!"
 msgstr "Kale रसद में आपका स्वागत है!"
+
